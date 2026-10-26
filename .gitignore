@@ -1,0 +1,20 @@
+# 環境
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# 真實影像與其輸出：公司資料一律放這裡，絕不進版控
+data/
+out/
+*.tif
+*.tiff
+*.dm3
+*.dm4
+*.bmp
+
+# Benchmark 中間產物；只保留最終結果
+results/*
+!results/final/
+*.log
